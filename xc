@@ -31,3 +31,25 @@ public class CreateTable {
       System.out.println(" Table created ");
    }
 }
+ Put p = new Put(Bytes.toBytes("row1")); 
+
+      // adding values using add() method
+      // accepts column family name, qualifier/row name ,value
+      p.add(Bytes.toBytes("personal"),
+      Bytes.toBytes("name"),Bytes.toBytes("raju"));
+
+      p.add(Bytes.toBytes("personal"),
+      Bytes.toBytes("city"),Bytes.toBytes("hyderabad"));
+
+      p.add(Bytes.toBytes("professional"),Bytes.toBytes("designation"),
+      Bytes.toBytes("manager"));
+
+      p.add(Bytes.toBytes("professional"),Bytes.toBytes("salary"),
+      Bytes.toBytes("50000"));
+      
+      // Saving the put Instance to the HTable.
+      hTable.put(p);
+      System.out.println("data inserted");
+      
+      // closing HTable
+      hTable.close();
