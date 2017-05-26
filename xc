@@ -4,10 +4,10 @@ TwitterAgent.sinks = HDFS
   
 # Describing/Configuring the source 
 TwitterAgent.sources.Twitter.type = org.apache.flume.source.twitter.TwitterSource
-TwitterAgent.sources.Twitter.consumerKey=uX0TWqkx0okYEjjqLzxIx6mD6
-TwitterAgent.sources.Twitter.consumerSecret=rzHIs3TMJnADbZNvdGU7LQUo0kPxPISq3RGSLfqcBip39X5END
-TwitterAgent.sources.Twitter.accessToken=559516596-yDA9xqOljo4CV32wSnqsx2BXh4RBIRKFxZGSZrPC
-TwitterAgent.sources.Twitter.accessTokenSecret=zDxePILZitS5tIWBhre0GWqps0FIj9OadX8RZb6w8ZCwz
+TwitterAgent.sources.Twitter.consumerKey=	I8WJyMNql0WSQ19IfCRj4oRNq
+TwitterAgent.sources.Twitter.consumerSecret=Ls9IL93WT8uxZ42djQGbzf7CuQ2d52TEzbz3ffezr1MXjYhXTf
+TwitterAgent.sources.Twitter.accessToken=	867950140606119936-0KhGVcau1qqozrB6iJwwx3x4TOAUuzo
+TwitterAgent.sources.Twitter.accessTokenSecret=	abef6yxB220YLl70We2BnFtry5e6p46ITYyManjQXmu5I
 TwitterAgent.sources.Twitter.keywords=hadoop, bigdata, mapreduce, mahout, hbase, nosql
 # Describing/Configuring the sink 
 
